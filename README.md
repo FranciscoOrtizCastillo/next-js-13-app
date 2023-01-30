@@ -1,5 +1,9 @@
 # Ejemplo de Next.js
 
+https://www.reactjs.wiki/
+https://github.com/midudev/preguntas-entrevista-react
+
+
 ## Creacion
 
 ```bash
@@ -66,8 +70,28 @@ pnpm install standard -D
     Cualquier otro fichero no es una ruta.
     Para que sea una ruta tiene que ser una carpeta con un fichero page. 
 
+    Todos los componentes ejecutados en la carpeta app son ejecutados en el servidor.
+
 - Arrancar proyecto
 
 ```bash
 pnpm run dev
+
+
+pnpm run build
 ```
+
+## Turbopack
+
+Añadir en package.json :
+
+>"dev": "next dev --turbo",
+
+```bash
+pnpm run dev
+
+```
+
+## Fuentes e Imagenes
+
+pnpm install @next/font -E
